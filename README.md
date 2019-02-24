@@ -5,6 +5,7 @@ Carlos, John Harold
 
 
 Application Description:
+
 WHO
 
 Students suffers from different kind of mood swings due to school works, family issues, self-esteem and coping up with their environment. These kind of scenarios or situations are not easy to deal with. They might have the mood levels that can corresponds to an activity that they can do to lessen the things that stresses them. Students tends to find application that will suit their taste to destress over things.
