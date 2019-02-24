@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="737dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="-6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                app:srcCompat="@drawable/logout" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                app:srcCompat="@drawable/logo2" />
+
+            <ImageView
+                android:id="@+id/forum"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:padding="3dp"
+                app:srcCompat="@drawable/chat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <EditText
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="What made you smile today?"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/btnshare"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/med_darkblue"
+                android:fontFamily="sans-serif-medium"
+                android:text="Share"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/wh"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgTrack"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                app:srcCompat="@drawable/track" />
+
+            <ImageView
+                android:id="@+id/imgFacts"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:padding="6dp"
+                app:srcCompat="@drawable/facts" />
+
+            <ImageView
+                android:id="@+id/imgMeditate"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:padding="6dp"
+                app:srcCompat="@drawable/meditate" />
+
+            <ImageView
+                android:id="@+id/imgContacts"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                app:srcCompat="@drawable/contacts" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            app:srcCompat="@color/med_darkgreen" />
+
+        <TextView
+            android:id="@+id/txtload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Load" />
+
+        <ListView
+            android:id="@+id/lv_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

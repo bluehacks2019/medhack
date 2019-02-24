@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "749785979787",
+    "firebase_url": "https://m3dh4ck.firebaseio.com",
+    "project_id": "m3dh4ck",
+    "storage_bucket": "m3dh4ck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749785979787:android:ff104c1bcef6856b",
+        "android_client_info": {
+          "package_name": "com.example.med_hack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749785979787-up95pf92uaaq9bhbev67keu0qs9ttnga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.med_hack",
+            "certificate_hash": "2be12bc74ec3a9d09926749d1889b1bb6e442456"
+          }
+        },
+        {
+          "client_id": "749785979787-fch7op38sjtnflsp1h94qpnir769uthj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhtbyx-UiH_6pI7C9Tu7-1kyOn_Oo0xDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749785979787-fch7op38sjtnflsp1h94qpnir769uthj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

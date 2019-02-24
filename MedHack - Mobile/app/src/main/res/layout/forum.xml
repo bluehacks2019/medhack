@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtmoodtype"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@color/med_red"
+            android:fontFamily="sans-serif-medium"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/txtvote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/med_blue"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtann"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/med_blue"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F92F8</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="med_blue">#76B7EB</color>
+    <color name="med_green">#9AFBF5</color>
+    <color name="med_red">#F28B74</color>
+    <color name="med_darkgreen">#247089</color>
+    <color name="med_darkblue">#68A1D4</color>
+    <color name="wh">#E8E6E6</color>
+</resources>
